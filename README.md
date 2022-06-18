@@ -21,6 +21,7 @@ El diseño web es ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
 
 
+
 ## Vista previa del proyecto
 `` vista no disponible``
 <!-- <img src="project-preview.png" aling="center"></img> -->
