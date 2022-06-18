@@ -1,4 +1,23 @@
 main{
     width: 100vw;
     height: 100vh;
+    background-image: url(../../media/img/section/landing/tm.png);
+    background-size: 200vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter : blur(5px);
+    animation: landing-zoom 5s ease-in-out forwards;
+
+}
+@keyframes landing-zoom {
+    0%{
+        background-size: 200vw;
+    }
+    50%{
+        background-size: 100vw;
+    }
+    100%{
+        background-size: 120vw;
+        filter: blur(0px);
+    }
 }
