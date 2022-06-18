@@ -43,7 +43,8 @@ El diseño web es ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ![Preview del proyecto](pr-progres/1.png)
 2. Se crea la animacion del fondo
     ![Preview de la animacion de la landingpage](pr-progres/2.gif)
-
+3. Se añade el titulo de la pagina web
+    ![Preview de la animacion de la landingpage](pr-progres/3.png)
 </details>
 
 

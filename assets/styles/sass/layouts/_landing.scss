@@ -5,9 +5,15 @@ main{
     background-size: 200vw;
     background-position: center;
     background-repeat: no-repeat;
-    filter : blur(5px);
-    animation: landing-zoom 5s ease-in-out forwards;
-
+    animation: landing-zoom 3s ease-in-out forwards;
+    display: grid;
+}
+.blur-ef{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    grid-area: 1/1;
+    animation: blur-ef 3s ease-in-out forwards;
 }
 @keyframes landing-zoom {
     0%{
@@ -18,6 +24,32 @@ main{
     }
     100%{
         background-size: 120vw;
-        filter: blur(0px);
+    }
+}
+@keyframes blur-ef {
+    0%{
+        backdrop-filter: blur(10px);
+    }
+    100%{
+        backdrop-filter: blur(0px);
+    }
+}
+section:nth-child(2){
+    display: grid;
+    grid-area:1/1;
+    z-index: 1;
+    h1{
+        color: #fff;
+        justify-self: center;
+        align-self: center;
+        grid-area: 1/1;
+        z-index: 1;
+        font-size: 10vw;
+        letter-spacing: 2vw;
+    }
+    svg{
+        grid-area: 1/1;
+        justify-self: center;
+        align-self: center;
     }
 }

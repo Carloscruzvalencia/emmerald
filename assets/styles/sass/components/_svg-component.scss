@@ -1,0 +1,26 @@
+.svg-fill{
+    fill: none;
+    animation: svgFill 2s ease-in-out forwards;
+}
+.svg-stroke{
+    stroke-dashoffset: 240vw;
+    stroke-dasharray: 80vw;
+    stroke: white;
+    animation: fillStroke 2s ease-in-out forwards;
+}
+@keyframes fillStroke {
+    to{
+        stroke-dashoffset: 320vw;
+        stroke-dasharray: 80vw;
+        stroke: rgba(42, 126, 82, 1);
+    }
+}
+@keyframes svgFill {
+    0%{
+        fill: rgba(42, 126, 83, 0);
+    }
+    100%{
+        fill: rgba(42, 126, 82, 1);
+    }
+    
+}

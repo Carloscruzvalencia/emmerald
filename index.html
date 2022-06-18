@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/css/main.css">
+
+    <script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
     <script src="assets/js/app.js"></script>
 </head>
 
@@ -15,10 +17,36 @@
         <nav></nav>
     </header>
     <main>
-        
+        <section class="blur-ef"></section>
+        <section>
+            <h1 id="animate-text"></h1>
+            <svg width="500" height="500" viewBox="0 0 500 500" fill="none" class="svg-fill"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="250" cy="250" r="243.5" stroke="white" stroke-width="13" class="svg-stroke" />
+            </svg>
+        </section>
+        <!-- <section>
+            <div>
+                <div>
+                    <h2>About me</h2>
+                    <img src="" alt="">
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur vero doloremque ducimus,
+                    incidunt tempora repellat animi nisi quo maiores iusto aut aperiam ipsam neque aliquam aliquid,
+                    deleniti perferendis nulla qui.
+                </p>
+            </div>
+        </section> -->
     </main>
     <footer>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new TypeIt("#animate-text", {
+                strings: ["EMERALD"],
+            }).go();
+        });
+    </script>
 </body>
 
 </html>
